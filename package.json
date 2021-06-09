@@ -1,6 +1,6 @@
 {
   "name": "random-messages-prueba",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Return a random message when you don't know what to write in a commit or something else",
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,15 @@
   "author": "Edgar Ocampo <edgarocampo36@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarocampo36/random-messages-pruebas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edgarocampo36/random-messages-pruebas/issues"
+  },
+  "homepage": "https://github.com/edgarocampo36/random-messages-pruebas#readme"
 }
